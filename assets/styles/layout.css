@@ -1,0 +1,264 @@
+.banner {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 6.25rem;
+  text-align: center;
+  padding-bottom: 6.25rem;
+  padding-left: 16.75rem;
+  padding-right: 16.75rem;
+}
+
+.section-project {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  gap: 2.188rem;
+}
+
+.left-side {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  color: var(--dark-1);
+  font-size: 2rem;
+  margin-bottom: 1.051rem;
+}
+.left-side p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--dark-1);
+  margin-bottom: 1rem;
+}
+.linked {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  color: var(--color-3);
+  gap: 0.5rem;
+}
+.right-side {
+  padding-top: 2rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left-side .card-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 70%;
+  background-color: white;
+  padding: 1.5rem;
+  color: var(--dark-1);
+  border-radius: 0px 8px;
+}
+.right-side .card-content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 70%;
+  background-color: white;
+  padding: 0.5rem;
+  color: var(--dark-1);
+  border-radius: 0px 8px;
+}
+.card-content .title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25.27px;
+}
+
+.card-content .description {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36psx;
+}
+
+.section-connect-collaborate {
+  min-height: 700px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(4, 156, 251, 0.05) 50%, white 50%);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+.container-card-connect-collaborate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: stretch;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.card-connect-collaborate {
+  width: 30%;
+  flex-direction: column;
+  justify-items: space-between;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 10vh;
+}
+
+.card-connect-collaborate.card-1 {
+  border-radius: 8px;
+  background-image: url("../images/collaborate/assets-testimonial-1.png");
+  background-size: 100% 150px;
+  object-fit: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.card-connect-collaborate.card-2 {
+  border-radius: 8px;
+  background-image: url("../images/collaborate/assets-testimonial-2.png");
+  background-size: 100% 150px;
+  object-fit: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.card-connect-collaborate.card-3 {
+  border-radius: 8px;
+  background-image: url("../images/collaborate/assets-testimonial-3.png");
+  background-size: 100% 150px;
+  object-fit: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.card-connect-collaborate .description {
+  padding: 1.5rem;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  height: auto;
+  margin-bottom: 10vh;
+  line-height: 36px;
+}
+.card-connect-collaborate .footer {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 0px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--dark-1);
+  margin-bottom: 0;
+}
+
+.card-connect-collaborate .footer img {
+  width: 2.5rem;
+  aspect-ratio: 1/1;
+}
+
+.container-partners {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  background-color: #049cfb10;
+  min-height: 30vh;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  overflow: hidden;
+  gap: 112px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+footer ul li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44.32px;
+  color: var(--dark-1);
+}
+
+footer:after {
+  content: "";
+  overflow: hidden;
+  width: 40%;
+  aspect-ratio: 1/1;
+  background-color: #5a5a5a;
+  opacity: 10%; 
+  bottom: -250px;
+  left: -223px;
+  border-radius: 224px;
+  position: absolute;
+  display: inline-block;
+}
+
+footer .title{
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Quicksand", sans-serif;
+  color: var(--dark-1);
+}
+
+footer .copyright{
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19.85px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+footer .title-sitemap{
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 25.27px;
+  font-family: "Quicksand", sans-serif;
+  color: var(--dark-1);
+  opacity: 50%;
+}
+
+footer .content-strong{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28.88px;
+  font-family: "Quicksand", sans-serif;
+  color: var(--dark-1);
+}

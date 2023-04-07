@@ -1,0 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Quicksand:wght@700&display=swap');
+@import './var.css';
+@import "./atoms.css";
+@import "./layout.css";
